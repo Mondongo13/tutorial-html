@@ -1,0 +1,252 @@
+<html>
+<head>
+    <title>Estructura básica de un documento HTML</title>
+</head>
+<body bgcolor="#1b263b" text="white">
+
+    <!-- Imagen principal de la lección (opcional) -->
+    <p align="center">
+        <img src="estructura._html.png" width="500" border="0" alt="Estructura basica">
+    </p>
+
+    <!-- Título de la lección -->
+    <h2>Estructura básica de un documento HTML</h2>
+    <font size="2">julio 3, 2023 por 
+        <a href="#" style="color:#00ffcc;">Desarrolladoresweb.org</a>
+    </font>
+    <br><br>
+
+    <!-- Botones Anterior / Siguiente (opcionales) -->
+    <table border="0" width="100%" cellpadding="5" cellspacing="0">
+        <tr>
+            <td align="left" width="50">
+                <a href="#" style="text-decoration:none;">
+                    <font color="#00ff99"><b>&laquo; Anterior</b></font>
+                </a>
+            </td>
+            <td align="right" width="50">
+                <a href="#" style="text-decoration:none;">
+                    <font color="#00ff99"><b>Siguiente &raquo;</b></font>
+                </a>
+            </td>
+        </tr>
+    </table>
+
+    <p>
+        Ahora aprenderemos cómo se debe hacer la estructura de un documento html para que funcione correctamente, se trata de utilizar ciertas etiquetas que indicarán información al navegador y que este lo interprete sin problemas.
+    </p>
+
+    <!-- “Ver índice del contenido” -->
+    <table border="1" width="90%" cellpadding="5" cellspacing="0" bordercolor="#2f2f2f">
+        <tr bgcolor="#192940">
+            <td>
+                <font size="3"><b>Ver índice del contenido</b></font>
+                <ul>
+                    <li>Cómo es la estructura básica de un documento HTML</li>
+                    <li>Etiqueta &lt;html&gt;
+                    <li>Etiqueta &lt;head&gt;</li>
+                    <li>Etiqueta &lt;title&gt;</li>
+                    <li>Etiqueta &lt;body&gt;</li>
+                    <li>Estructura básica final del documento HTML</li>
+                    <li>Conclusión sobre la estructura de página html</li>
+                </ul>
+            </td>   
+        </tr>
+    </table>
+
+    <br>
+    <h3>Cómo es la estructura básica de un documento HTML</h3>
+    <p>
+        Un documento HTML tiene una estructura básica compuesta por diversas etiquetas que determinan la configuración de la página resultante. Estas etiquetas deben estar correctamente organizadas para que la página opere sin inconvenientes.
+    </p>
+    <p>
+        ¡Excelente! Recordemos que las etiquetas indican al navegador cómo debe ser la estructura de una página web. Ahora que entendemos qué es una etiqueta y su función, es el momento de crear nuestra estructura básica de HTML empleando las etiquetas apropiadas para ello.
+    </p>
+    <h3>Etiqueta &lt;html&gt;</h3>
+    
+<p>
+    La etiqueta &lt;html&gt; indica que el documento es un documento HTML y será interpretado así por el navegador. Todo el contenido de la página debe estar contenido ordenadamente dentro de la etiqueta &lt;html&gt;, y de hecho, es lo primero que se debe escribir en el documento.
+</p>
+    <p>
+        &lt;html&gt;<br>
+        ...contenido... <br>
+        &lt;/html&gt; 
+    </p>
+
+    <h3>Etiqueta &lt;head&gt;&lt;/head&gt;</h3>
+    <P>
+        &lt;head&gt; es la etiqueta en la que ira la cabecera de nuestra página y va justo después de la etiqueta de apertura &lt;html&gt;, esta etiqueta contiene elementos que ayudarán a que nuestra página funcione correctamente y generalmente dentro de esta etiqueta van elementos que no se visualizan en el navegador.
+    </P>
+
+    <P>
+        &lt;html&gt;<br> 
+            &lt;head&gt;<br> 
+              ...elementos de la cabecera... <br>
+            &lt;/head&gt;<br> 
+          &lt;/html&gt;
+    </P>
+<h3>Etiqueta &lt;title&gt;&lt;/title&gt;</h3>
+<p>
+    La etiqueta &lt;title&gt; va dentro de la etiqueta &lt;head&gt; en la cabecera, &lt;title&gt; contiene el título de la página y esta se muestra en la pestaña de los navegadores, más no se ve en el cuerpo de la página.
+</p>
+    <p>
+        <b>Te recomendamos leer:</b>
+        <a href="estructura.html" style="color:#00ffcc;">
+            La estructura básica de un documento HTML
+        </a>
+    </p>
+    A continuación veamos un ejemplo:
+    <p>
+        &lt;html&gt;<br>
+            &lt;head&gt;<br>
+            &lt;title&gt; Mi primer titulo &lt;/title&gt;<br>
+            &lt;/head&gt;<br>
+        &lt;/html&gt;
+    </p>
+    Resultado del codigo anterior:
+    <br>
+    <p align="center">
+        <img src="estructura._html.png" width="500" border="0" alt="Estructura basica">
+    </p>
+    imagen de como se muestra el titulo en pantalla
+    <br>
+    <br>
+    Como ves, el contenido de la etiqueta &lt;title&gt; se ve reflejado en la pestaña del navegador.
+    <h3>Etiqueta &lt;body&gt;&lt;/body&gt;</h3>
+    <p>
+        Después de la cabecera sigue el cuerpo de la página y se indica mediante la etiqueta&lt;body&gt;, el cuerpo o body contiene prácticamente los elementos visuales de nuestra página, aquí irán los textos de encabezado o títulos, subtítulos, párrafos, listas, tablas, formularios, multimedia, etc. Es decir el contenido de la página, todo lo que queremos que se vea en el navegador.
+    </p>
+    <p>
+        &lt;body&gt;<br>
+            ...cuerpo de la página...<br>
+            &lt;/body&gt;
+    </p>
+    <h3>Estructura básica final del documento HTML</h3>
+    <p>
+        Entonces finalmente la estructura básica HTML quedará de la siguiente manera.
+    </p>
+
+    <p>
+        &lt;html&gt;<br>
+
+        &lt;head&gt;<br>
+        &lt;title&gt; Mi primer titulo &lt;/title&gt;<br>
+        &lt;/head&gt;<br>
+        
+        &lt;body&gt;<br>
+        ...Cuerpo de la página, todo lo que va dentro de la etiqueta BODY será visible en la ventana del navegasor... <br>
+        &lt;/body&gt;<br>
+        
+        &lt;/html&gt;
+    </p>
+    <p>
+        Resultado del código anterior:
+    </p>
+    <br>
+    <p align="center">
+        <img src="estructura._html.png" width="500" border="0" alt="Estructura basica">
+    <br>
+    Este es el reultado de una estructura básica html.
+    <br>
+    <h3>Conclusión sobre la estructura de página html</h3>
+    <p>
+        Como podemos observar, tenemos que indicar al navegador que nuestro documento es un documento HTML &lt;html&gt;, también tenemos que indicarle cuál es la cabecera&lt;head&gt;, dentro de la cabecera va el titulo &lt;title&gt; y también debemos indicar cuál es el cuerpo de nuestra página &lt;;body&gt;.
+    </p>
+    <p>
+        Ahora seguramente ya creaste la estructura básica en tu documento HTML, si guardas el documento sin escribir nada entre las etiquetas &lt;body&gt; y por otro lado actualizas el navegador, seguramente sigue en blanco; si colocas algún texto como se ve en el ejemplo entonces aparecerá ella.
+    </p>
+    <p>
+        De ahora en adelante aprenderemos a utilizar las etiquetas que permiten crear los contenidos propiamente dichos. ¡Así pues, vayamos por ello! a crear contenido.
+    </p>
+    <p>
+        <b>Te recomendamos leer:</b>
+        <a href="estructura.html" style="color:#00ffcc;">
+            La estructura básica de un documento HTML
+        </a>
+    </p>
+
+    <p>4.9/5 - (10 votos)</p>
+
+    <!-- Botones Anterior / Siguiente al final -->
+    <table border="0" width="100%" cellpadding="5" cellspacing="0">
+        <tr>
+            <td align="left" width="50">
+                <a href="#" style="text-decoration:none;">
+                    <font color="#00ff99"><b>&laquo; Anterior</b></font>
+                </a>
+            </td>
+            <td align="right" width="50">
+                <a href="#" style="text-decoration:none;">
+                    <font color="#00ff99"><b>Siguiente &raquo;</b></font>
+                </a>
+            </td>
+        </tr>
+    </table>
+
+    <p>
+        <b>Categorías:</b> CURSO DE HTML<br>
+        <b>Etiquetas:</b> Empezando en html, introducción a html, lenguaje web html
+    </p>
+    <p>
+        <a href="#" style="color:#00ffcc;">Ejemplo de calculadora programada en php</a><br>
+        <a href="#" style="color:#00ffcc;">¿Qué es HTML Para qué sirve y cómo funciona?</a>
+    </p>
+
+    <h3>25 comentarios en «Introducción a HTML y al desarrollo web»</h3>
+
+    <!-- Tabla de comentarios -->
+    <table width="100%" border="0" cellpadding="5" cellspacing="5" bgcolor="#1b263b">
+        <tr>
+          <td valign="top" width="50"><b>Omar Fer</b><br><font size="2">mayo 21, 2020 a las 8:14 pm</font></td>
+          <td>
+            <table border="1" bordercolor="#2f2f2f" cellpadding="5" cellspacing="0">
+              <tr><td>
+                <font color="white">Excelente gracias</font><br><br>
+                <a href="#"><font color="#00ffcc">Responder</font></a>
+              </td></tr>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td valign="top" width="50"><b>Emanuel</b><br><font size="2">junio 7, 2020 a las 5:39 pm</font></td>
+          <td>
+            <table border="1" bordercolor="#2f2f2f" cellpadding="5" cellspacing="0">
+              <tr><td>
+                <font color="white">Muchas Gracias</font><br><br>
+                <a href="#"><font color="#00ffcc">Responder</font></a>
+              </td></tr>
+            </table>
+          </td>
+        </tr>
+        <!-- Continúa con el resto de comentarios... -->
+    </table>
+
+    <br>
+    <!-- Formulario para dejar un comentario -->
+    <h3>Deja un comentario</h3>
+    <form>
+      <p>
+        <b>Comentario</b><br>
+        <textarea rows="5" cols="60" style="background-color:#101828; color:white;"></textarea>
+      </p>
+      <p>
+        <b>Nombre</b> <input type="text" size="30" style="background-color:#101828; color:white;">
+      </p>
+      <p>
+        <b>Correo electrónico</b> <input type="text" size="30" style="background-color:#101828; color:white;">
+      </p>
+      <p>
+        <b>Web</b> <input type="text" size="30" style="background-color:#101828; color:white;">
+      </p>
+      <input type="submit" value="Publicar comentario"
+             style="background-color:#00ff99; color:#000000; font-weight:bold;">
+    </form>
+
+    <br>
+    <!-- Footer con links legales -->
+    <p align="center">
+      &#9679; <a href="#" style="color:#00ffcc;">POLÍTICA DE PRIVACIDAD</a> 
+      &#9679; <a href="#" style="color:#00ffcc;">POLÍTICA DE COOKIES</a> 
+      &#9679; <a href="#" style="color:#00ffcc;">AVISO LEGAL</a> 
+      &#9679; <a href="#" style="color:#00ffcc;">QUIÉNES SOMOS</a> 
+      &#9679; <a href="#" style="color:#00ffcc;">CONTACTO</a><br><br>

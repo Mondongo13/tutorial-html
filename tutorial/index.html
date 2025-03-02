@@ -2,10 +2,13 @@
     "http://www.w3.org/TR/html4/frameset.dtd">
 <html>
 <head>
-    <title>Mi Página con Encabezado</title>
+    <title>Mi Página con Frames</title>
 </head>
-<frameset rows="80px, *" border="0">
+<frameset rows="80px,*" border="0">
+    <!-- Frame superior: Menú con “Web Devs” -->
     <frame src="header.html" name="top_frame" scrolling="no" noresize>
+    
+    <!-- Frame inferior: la página principal (home.html) sin barra lateral -->
     <frame src="home.html" name="main_frame">
 </frameset>
 </html>

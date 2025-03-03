@@ -1,0 +1,209 @@
+<html>
+<head>
+    <title>Etiquetas div y span</title>
+</head>
+<body bgcolor="#1b263b" text="white">
+
+    <!-- Imagen principal de la lección (opcional) -->
+    <p align="center">
+        <img src="divyspan._html.png" width="500" border="0" alt="Etiquetas div y span">
+    </p>
+
+    <!-- Título de la lección -->
+    <h2>Etiqueta div y span en HTML</h2>
+    <font size="2">julio 17, 2023 por 
+        <a href="#" style="color:#00ffcc;">Desarrolladoresweb.org</a>
+    </font>
+    <br><br>
+
+    <!-- Botones Anterior / Siguiente (opcionales) -->
+    <table border="0" width="100%" cellpadding="5" cellspacing="0">
+        <tr>
+            <td align="left" width="50">
+                <a href="#" style="text-decoration:none;">
+                    <font color="#00ff99"><b>&laquo; Anterior</b></font>
+                </a>
+            </td>
+            <td align="right" width="50">
+                <a href="#" style="text-decoration:none;">
+                    <font color="#00ff99"><b>Siguiente &raquo;</b></font>
+                </a>
+            </td>
+        </tr>
+    </table>
+
+    <p>
+        En esta lección aprenderemos a utilizar correctamente la etiqueta &lt;div&gt;y la etiqueta &lt;span&gt;, veremos cómo se utiliza y sus diferencias, además, veremos ejemplos concretos sobre los usos correctos de estos elementos HTML.
+    </p>
+
+    <!-- “Ver índice del contenido” -->
+    <table border="1" width="90%" cellpadding="5" cellspacing="0" bordercolor="#2f2f2f">
+        <tr bgcolor="#192940">
+            <td>
+                <font size="3"><b>Ver índice del contenido</b></font>
+                <ul>
+                    <li>Características y diferencias de etiquetas &lt;div&gt; y &lt;span&gt; en HTML</li>
+                    <li>Etiqueta &lt;div&gt; en html</li>
+                    <li>Ejemplos de etiqueta div en HTML</li>
+                    <li>Etiqueta div para qué sirve en HTML</li>
+                    <li>Etiqueta &lt;span&gt; en html</li>
+                    <li>Ejemplo de etiqueta span html</li>
+                </ul>
+            </td>   
+        </tr>
+    </table>
+
+    <br>
+    <h3>Características y diferencias de etiquetas &lt;div&gt; y &lt;span&gt; en HTML</h3>
+    <p>
+        La principal deferencia entre las etiquetas &lt;div&gt; y &lt;span&gt; es que en el primer caso se define como un elemento en bloque y en la segunda como un elemento en linea. A continuación veamos con ejemplos de código HTML como se comportan.
+    </p>
+    <h3>Etiqueta &lt;div&gt; en html</h3>
+    <p>
+        Para qué sirve la etiqueta div, la etiqueta &lt;div&gt; viene de división, prácticamente funciona y sirve de contenedor de bloque, es decir puede contener uno o varios elementos HTML dentro de ella, es bastante utilizada para agrupar varios elementos que luego serán apuntados con CSS con la finalidad de dar un estilo adecuado a dicho grupo, o también puede servir para organizar mejor nuestra página web.
+    </p>
+    <h3>Ejemplos de etiqueta div en HTML</h3>
+    <p>
+        A continuación veamos un ejemplo concreto, se trata de tres bloques construidos con la etiqueta &lt;div&gt;, claramente diferenciados por el color de fondo de cada bloque:
+    </p>
+    <p>
+        &lt;div id="rojo" style="background-color: red;"&gt;<br>
+  
+            &lt;h1&gt; Titulo en contenedor rojo&lt;/h1&gt;&lt;br&gt;<br>
+              
+            &lt;div id="azul" style="background-color: blue;"&gt;<br>
+            &lt;p&gt; Este es un párrafo dentro de un contenedor div con fondo rojo y que a su vez esta dentro de otro contenedor div con fondo azul&lt;/p&gt;<br>
+            &lt;/div&gt;<br>
+              
+              &lt;br&gt;&lt;br&gt; <br><br>
+            
+            &lt;/div&gt;&lt;br&gt; <br>
+            
+            &lt;div id="verde" style="background-color: green;"&gt;<br>
+            &lt;h2&gt; Subtitulo en contenedor verde&lt;/h2&gt; <br>
+            &lt;img src="gatito.jpg" width="250px" height="180px"/&gt; <br>
+            &lt;p&gt; Este es otro parrado que esta dentro de un contenedor  div con fondo verde&lt;/p&gt;&lt;/div&gt;
+    </p>
+    Resultado:
+     <p align="center">
+        <img src="estructura._html.png" width="500" border="0" alt="Estructura basica">
+    </p>
+    <h3>Resultado del ejemplo div:</h3>
+    <p>
+        Como se observa, el bloque &lt;div id="rojo"&gt; posee un color de fondo rojo, además este bloque rojo contiene un título h1 y otro bloque &lt;div id="azul"&gt; color de fondo azul, después de ella se presenta otro bloque &lt;div id="verde"&gt; cuyo color de fondo es verde, este bloque contiene un subtítulo h2 seguido de una imagen y un párrafo al final.
+    </p>
+    <h3>Etiqueta div para qué sirve en HTML</h3>
+    <p>
+        La etiqueta &lt;div&gt; sirve de contenedor de bloque, puede contener varios elementos HTML, incluso otros elementos div a la vez. Cabe señalar que antaño se solía utilizar para organizar las secciones de una página web tales como la cabecera, la navegación o menú, el cuerpo de página, los pies de página, barras laterales, etc. Se le solía poner un atributo id o class con su respectivo nombre como: cabecera, cuerpo, footer, etc. para luego darle estilo con CSS.
+    </p>
+    <p>
+        Sin embargo desde que apareció HTML5 es mejor emplear las nuevas etiquetas html5 como: &lt;header&gt;, &lt;article&gt;, &lt;footer&gt;, etc. para organizar la estructura de una página y eso lo aprenderemos en su respectiva lección en el curso de html5.
+    </p>
+    <p>
+        Necesito que me entiendas, Html5 es una versión de HTML que ha incorporado nuevos elementos con los que se pueden definir directamente bloques que anteriormente teníamos que construirlos con la etiqueta &lt;div&gt; e identificarlos, así que html5 ha solucionado gran parte de estas molestias. Pero &lt;div&gt; es todavía bastante utilizado para agrupar elementos y construir bloques que necesitamos para personalizarlo posteriormente.
+    </p>
+    <h3>Etiqueta &lt;span&gt; en html</h3>
+<p>
+    La etiqueta <spam> también funciona como un contenedor pero en este caso será un contenedor en línea. Por ejemplo para destacar una palabra o expresión dentro de un párrafo utilizaremos la etiqueta &lt;span&gt; para encerrar esa palabra o expresión y luego ponerle un estilo mediante un atributo. O también podemos ponerle un identificador, ya sea id o class para luego apuntarlo y maquetarlo con CSS.
+</p>
+<h3>Ejemplo de etiqueta span html</h3>
+<p>
+    Ejemplo de código HTML empleando la etiqueta &lt;span&gt;, en este caso utilizaremos span para resaltar una fracción de texto dentro de un párrafo, de tal manera que el color de letra será de rojo y el fondo de color amarillo.
+</p>
+
+<p>
+    &lt;p&gt; Este es un párrafo en el que insertaremos un elemento span a continuación para diferenciarlo &lt;span style="background: yellow; color: red;"&gt;Texto especial dentro de etiqueta span con fondo amarillo y color rojo&lt;/span&gt; ese texto especial sigue dentro del párrafo y en linea, forma parte del párrafo, pero podemos especificar alguna característica &lt;/p&gt;
+</p>
+Resultado del codigo HTML:
+    <p align="center">
+        <img src="estructura._html.png" width="500" border="0" alt="Estructura basica">
+    </p>
+    <p>
+        Como podemos observar el texto dentro de la etiqueta span ha sido resaltada en color rojo y fondo amarillo.
+    </p>
+    <H4>En resumen, la diferencia entre el div y span es que div se emplea para agrupar elementos html en un bloque en cambio span sirve para agrupar dentro de una línea.</H4>
+
+
+    <!-- Botones Anterior / Siguiente al final -->
+    <table border="0" width="100%" cellpadding="5" cellspacing="0">
+        <tr>
+            <td align="left" width="50">
+                <a href="#" style="text-decoration:none;">
+                    <font color="#00ff99"><b>&laquo; Anterior</b></font>
+                </a>
+            </td>
+            <td align="right" width="50">
+                <a href="#" style="text-decoration:none;">
+                    <font color="#00ff99"><b>Siguiente &raquo;</b></font>
+                </a>
+            </td>
+        </tr>
+    </table>
+
+    <p>
+        <b>Categorías:</b> CURSO DE HTML<br>
+        <b>Etiquetas:</b> Empezando en html, introducción a html, lenguaje web html
+    </p>
+    <p>
+        <a href="#" style="color:#00ffcc;">Ejemplo de calculadora programada en php</a><br>
+        <a href="#" style="color:#00ffcc;">¿Qué es HTML Para qué sirve y cómo funciona?</a>
+    </p>
+
+    <h3>25 comentarios en «Introducción a HTML y al desarrollo web»</h3>
+
+    <!-- Tabla de comentarios -->
+    <table width="100%" border="0" cellpadding="5" cellspacing="5" bgcolor="#1b263b">
+        <tr>
+          <td valign="top" width="50"><b>Omar Fer</b><br><font size="2">mayo 21, 2020 a las 8:14 pm</font></td>
+          <td>
+            <table border="1" bordercolor="#2f2f2f" cellpadding="5" cellspacing="0">
+              <tr><td>
+                <font color="white">Excelente gracias</font><br><br>
+                <a href="#"><font color="#00ffcc">Responder</font></a>
+              </td></tr>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td valign="top" width="50"><b>Emanuel</b><br><font size="2">junio 7, 2020 a las 5:39 pm</font></td>
+          <td>
+            <table border="1" bordercolor="#2f2f2f" cellpadding="5" cellspacing="0">
+              <tr><td>
+                <font color="white">Muchas Gracias</font><br><br>
+                <a href="#"><font color="#00ffcc">Responder</font></a>
+              </td></tr>
+            </table>
+          </td>
+        </tr>
+        <!-- Continúa con el resto de comentarios... -->
+    </table>
+
+    <br>
+    <!-- Formulario para dejar un comentario -->
+    <h3>Deja un comentario</h3>
+    <form>
+      <p>
+        <b>Comentario</b><br>
+        <textarea rows="5" cols="60" style="background-color:#101828; color:white;"></textarea>
+      </p>
+      <p>
+        <b>Nombre</b> <input type="text" size="30" style="background-color:#101828; color:white;">
+      </p>
+      <p>
+        <b>Correo electrónico</b> <input type="text" size="30" style="background-color:#101828; color:white;">
+      </p>
+      <p>
+        <b>Web</b> <input type="text" size="30" style="background-color:#101828; color:white;">
+      </p>
+      <input type="submit" value="Publicar comentario"
+             style="background-color:#00ff99; color:#000000; font-weight:bold;">
+    </form>
+
+    <br>
+    <!-- Footer con links legales -->
+    <p align="center">
+      &#9679; <a href="#" style="color:#00ffcc;">POLÍTICA DE PRIVACIDAD</a> 
+      &#9679; <a href="#" style="color:#00ffcc;">POLÍTICA DE COOKIES</a> 
+      &#9679; <a href="#" style="color:#00ffcc;">AVISO LEGAL</a> 
+      &#9679; <a href="#" style="color:#00ffcc;">QUIÉNES SOMOS</a> 
+      &#9679; <a href="#" style="color:#00ffcc;">CONTACTO</a><br><br>

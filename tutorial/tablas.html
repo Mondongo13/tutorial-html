@@ -1,0 +1,250 @@
+<html>
+<head>
+    <title>Tablas HTML</title>
+</head>
+<body bgcolor="#1b263b" text="white">
+
+    <!-- Imagen principal de la lección (opcional) -->
+    <p align="center">
+        <img src="Tablas._html.png" width="500" border="0" alt="Tablas">
+    </p>
+
+    <!-- Título de la lección -->
+    <h2>Cómo hacer Tablas Hermosas en HTML – Con ejemplos</h2>
+    <font size="2">julio 3, 2023 por 
+        <a href="#" style="color:#00ffcc;">Desarrolladoresweb.org</a>
+    </font>
+    <br><br>
+
+    <!-- Botones Anterior / Siguiente (opcionales) -->
+    <table border="0" width="100%" cellpadding="5" cellspacing="0">
+        <tr>
+            <td align="left" width="50">
+                <a href="#" style="text-decoration:none;">
+                    <font color="#00ff99"><b>&laquo; Anterior</b></font>
+                </a>
+            </td>
+            <td align="right" width="50">
+                <a href="#" style="text-decoration:none;">
+                    <font color="#00ff99"><b>Siguiente &raquo;</b></font>
+                </a>
+            </td>
+        </tr>
+    </table>
+
+    <p>
+        En esta lección aprenderemos a crear tablas en html correctamente desde cero, empezaremos conociendo las etiquetas que definen su estructura y los atributos correspondientes a tablas, poco a poco avanzaremos para conseguir crear tablas complejas e impresionantes de manera fácil; obviamente, veremos códigos para crear tablas que puedes probar, modificar y ver el resultado aquí mismo, prueba el editor de código, sin más preámbulo ¡Empecemos!
+    </p>
+
+    <!-- “Ver índice del contenido” -->
+    <table border="1" width="90%" cellpadding="5" cellspacing="0" bordercolor="#2f2f2f">
+        <tr bgcolor="#192940">
+            <td>
+                <font size="3"><b>Ver índice del contenido</b></font>
+                <ul>
+                    <li>Crear Tablas en HTML</li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li>Atributo colspan y rowspan</li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li>Ejemplo completo de tablas en HTML</li>
+                </ul>
+            </td>   
+        </tr>
+    </table>
+
+    <br>
+    <h3>Crear Tablas en HTML</h3>
+    <p>
+        Para crear tablas en HTML debemos saber que, una tabla es una estructura formada por filas y columnas, las filas son las distribuciones horizontales y las columnas son las distribuciones verticales. Para construir una tabla crearemos dichas filas y columnas mediante etiquetas que aprenderemos en adelante. Para crear e insertar una tabla en HTML, haremos uso de las etiquetas. Por ejemplo, en la siguiente imagen podemos observar una tabla con 4 filas y 3 columnas.
+    </p>
+     <p align="center">
+        <img src="estructura._html.png" width="500" border="0" alt="Estructura basica">
+    </p>
+    
+<p>
+    En HTML, la estructura de una tabla tiene que ver con etiquetas, una etiqueta &lt;table&gt; indica que es un elemento de tabla, dentro de ella va otra etiqueta &lt;tr&gt; y esta señala las filas de una tabla y finalmente, dentro de cada fila expresada con etiqueta &lt;tr&gt; va otra etiqueta &lt;td&gt; y es básicamente un cuadrito o CELDA de la tabla contenida en una fila, y dentro de ella irá el contenido deseado; si no lograste captar la idea, no hay problema ¡Lo harás con los ejemplos! sigamos.
+</p>
+   <h3>Etiqueta &lt;table&gt;&lt;/table&gt;</h3>
+   <p>
+    Para crear y definir una tabla en HTML, simplemente empleamos la etiqueta &lt;table&gt;, en el código HTML, veamos.
+   </p>
+   <p>
+    &lt;table&gt;<br>
+  <br>
+    &lt;/table&gt;
+   </p>
+   <h3>Etiqueta &lt;tr&gt;&lt;/tr&gt;</h3>
+   <p>
+    Para crear una fila dentro de una tabla (&lt;table&gt;) empleamos la etiqueta &lt;tr&gt;; si deseamos varias filas, entonces crearemos varias etiquetas &lt;tr&gt; con su respectiva etiqueta de cierre. Veamos un ejemplo de una tabla con 3 filas. Por cada &lt;tr&gt; se crea una fila dentro de la tabla.
+   </p>
+   <p>
+    &lt;table&gt;<br>
+        &lt;tr&gt;<br>
+        &lt;/tr&gt;<br>
+        
+        &lt;tr&gt;<br>
+        &lt;/tr&gt;<br>
+        
+        &lt;tr&gt; <br>
+        &lt;/tr&gt;<br>
+      &lt;/table&gt; 
+   </p>
+   <h3>Etiqueta &lt;td&gt;&lt;/td&gt;</h3>
+   <p>
+    La etiqueta &lt;td&gt; va dentro de &lt;tr&gt;. Por cada &lt;td&gt; se crea una columna dentro de la fila &lt;tr&gt;.
+   </p>
+   <p>
+    La etiqueta &lt;td&gt; Prácticamente actúa como contenedor, dentro de ella irán los contenidos de tabla, puede ir texto, imágenes, e incluso más tablas y otros elementos HTML, ¡pruébalos!
+   </p>
+    <p>
+        <b>Te recomendamos leer:</b>
+        <a href="estructura.html" style="color:#00ffcc;">
+            La estructura básica de un documento HTML
+        </a>
+    </p>
+<p>
+    Veamos el ejemplo:
+</p>
+<p>
+    &lt;table&gt; <br>
+        &lt;tr&gt; <br>
+          &lt;td&gt; Primero &lt;/td&gt; <br>
+          &lt;td&gt; Segundo &lt;/td&gt; <br>
+          &lt;td&gt; Tercero &lt;/td&gt;<br>
+        &lt;/tr&gt; <br>
+      &lt;/table&gt; 
+</p>
+<p>
+    Para que entiendas, capta esto: dentro de las tablas &lt;table&gt; van las filas &lt;tr&gt; y dentro de las filas van las columnas &lt;td&gt;, además, dentro de las tablas pueden ir varias filas y dentro de las filas pueden ir varias columnas como veremos más adelante.
+</p>
+Resultado:
+    <p align="center">
+        <img src="estructura._html.png" width="500" border="0" alt="Estructura basica">
+    </p>
+    <p>
+        Como podemos observar en la imagen, el resultado es una tabla de una fila y tres columnas, sin embargo a simple vista no parece ser una tabla, y para mejorar el aspecto emplearemos a continuación el atributo border.
+    </p>
+    <h3>Atributo border</h3>
+    <p>
+        Cuando creamos una tabla, por defecto no tiene ningún borde, más parece una lista sin estilo.
+    </p>
+    <p>
+        Para ponerle borde a la tabla utilizamos el atributo border y en su valor la dimensión de ese borde.
+    </p>
+    <p>
+        Como ejemplo veamos la misma tabla anterior pero en este caso le ponemos borde de 1px:
+    </p>
+    <p>
+        &lt;table border="1px"&gt; <br> 
+            &lt;tr&gt; <br> 
+              &lt;td&gt; Primero &lt;/td&gt; <br>
+              &lt;td&gt; Segundo &lt;/td&gt; <br>
+              &lt;td&gt; Tercero &lt;/td&gt; <br>
+            &lt;/tr&gt; <br>
+          &lt;/table&gt;
+    </p>
+    Resultado:
+    <p align="center">
+        <img src="estructura._html.png" width="500" border="0" alt="Estructura basica">
+    </p>
+    <p>
+        Ahora el resultado ya tiene un borde, por defecto, veremos que cada celda o elemento tiene su propio borde. Más adelante aprenderemos cómo modificar y poner estilos a tablas.
+    </p>
+    <h3>Ejemplo de tablas en HTML</h3>
+    <p>
+        El ejemplo a continuación es una tabla de 4 filas y 5 columnas con un borde de 1px:
+    </p>
+
+
+    <!-- Botones Anterior / Siguiente al final -->
+    <table border="0" width="100%" cellpadding="5" cellspacing="0">
+        <tr>
+            <td align="left" width="50">
+                <a href="#" style="text-decoration:none;">
+                    <font color="#00ff99"><b>&laquo; Anterior</b></font>
+                </a>
+            </td>
+            <td align="right" width="50">
+                <a href="#" style="text-decoration:none;">
+                    <font color="#00ff99"><b>Siguiente &raquo;</b></font>
+                </a>
+            </td>
+        </tr>
+    </table>
+
+    <p>
+        <b>Categorías:</b> CURSO DE HTML<br>
+        <b>Etiquetas:</b> Empezando en html, introducción a html, lenguaje web html
+    </p>
+    <p>
+        <a href="#" style="color:#00ffcc;">Ejemplo de calculadora programada en php</a><br>
+        <a href="#" style="color:#00ffcc;">¿Qué es HTML Para qué sirve y cómo funciona?</a>
+    </p>
+
+    <h3>25 comentarios en «Introducción a HTML y al desarrollo web»</h3>
+
+    <!-- Tabla de comentarios -->
+    <table width="100%" border="0" cellpadding="5" cellspacing="5" bgcolor="#1b263b">
+        <tr>
+          <td valign="top" width="50"><b>Omar Fer</b><br><font size="2">mayo 21, 2020 a las 8:14 pm</font></td>
+          <td>
+            <table border="1" bordercolor="#2f2f2f" cellpadding="5" cellspacing="0">
+              <tr><td>
+                <font color="white">Excelente gracias</font><br><br>
+                <a href="#"><font color="#00ffcc">Responder</font></a>
+              </td></tr>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td valign="top" width="50"><b>Emanuel</b><br><font size="2">junio 7, 2020 a las 5:39 pm</font></td>
+          <td>
+            <table border="1" bordercolor="#2f2f2f" cellpadding="5" cellspacing="0">
+              <tr><td>
+                <font color="white">Muchas Gracias</font><br><br>
+                <a href="#"><font color="#00ffcc">Responder</font></a>
+              </td></tr>
+            </table>
+          </td>
+        </tr>
+        <!-- Continúa con el resto de comentarios... -->
+    </table>
+
+    <br>
+    <!-- Formulario para dejar un comentario -->
+    <h3>Deja un comentario</h3>
+    <form>
+      <p>
+        <b>Comentario</b><br>
+        <textarea rows="5" cols="60" style="background-color:#101828; color:white;"></textarea>
+      </p>
+      <p>
+        <b>Nombre</b> <input type="text" size="30" style="background-color:#101828; color:white;">
+      </p>
+      <p>
+        <b>Correo electrónico</b> <input type="text" size="30" style="background-color:#101828; color:white;">
+      </p>
+      <p>
+        <b>Web</b> <input type="text" size="30" style="background-color:#101828; color:white;">
+      </p>
+      <input type="submit" value="Publicar comentario"
+             style="background-color:#00ff99; color:#000000; font-weight:bold;">
+    </form>
+
+    <br>
+    <!-- Footer con links legales -->
+    <p align="center">
+      &#9679; <a href="#" style="color:#00ffcc;">POLÍTICA DE PRIVACIDAD</a> 
+      &#9679; <a href="#" style="color:#00ffcc;">POLÍTICA DE COOKIES</a> 
+      &#9679; <a href="#" style="color:#00ffcc;">AVISO LEGAL</a> 
+      &#9679; <a href="#" style="color:#00ffcc;">QUIÉNES SOMOS</a> 
+      &#9679; <a href="#" style="color:#00ffcc;">CONTACTO</a><br><br>
